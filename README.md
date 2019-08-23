@@ -12,7 +12,7 @@
 # Version history
 test version: Only searches for a specific word in a specific file
 
-#Version 0.1
+# Version 0.1
 -Accepts input of words from the user  
 -Restricts hits by applying anchors to the input  
 -Keeps running until the user enters no input (just enter)  

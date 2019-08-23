@@ -3,11 +3,9 @@ import subprocess
 
 #Get user input
 targetWord = ''
-#targetWord = input("Enter a search word (or just enter to quit): ")
 
 #Initializing variables
 targetFile = 'testfile.txt'
-#targetLine = '^' + targetWord + '$'
 targetLine = ''
 searching = True
 
