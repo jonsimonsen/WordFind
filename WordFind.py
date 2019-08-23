@@ -7,4 +7,4 @@ targetWord = 'test'
 targetline = 'test\n'
 
 #Try to find the word
-subprocess.call(['grep', targetFile, targetWord])
+subprocess.call(['grep', targetWord, targetFile])
