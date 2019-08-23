@@ -5,6 +5,7 @@
 
 # Installing and running
 -The program contains subprocess calls, and i do not guarantee that your system is safe while running this program.  
+-Version 0.1 uses grep as a subprocess, so it seems like it must be run in a UNIX system.
 -The program uses Python 3, so install this.  
 -Fork the repo. I suggest keeping the forked files together in a folder that does not contain other files.  
 -Run the program from terminal by typing: python3 ./Wordfind.py  
