@@ -4,7 +4,7 @@ import subprocess
 #Initializing variables
 targetFile = 'testfile.txt'
 targetWord = 'test'
-targetline = 'test\n'
+targetLine = '^test$'
 
 #Try to find the word
-subprocess.call(['grep', '-n', targetWord, targetFile])
+subprocess.call(['grep', '-n', targetLine, targetFile])
