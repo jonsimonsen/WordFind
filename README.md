@@ -12,9 +12,11 @@
 # Version history
 test version: Only searches for a specific word in a specific file
 
+#Version 0.1
+-Accepts input of words from the user  
+-Restricts hits by applying anchors to the input  
+-Keeps running until the user enters no input (just enter)  
+
 # TODOs
-1: Accept input of words from user  
-2: Restrict hits by applying anchors to the input  
-3: Keep running until the user enters no input (just enter)  
 4: Let the user specify the name of the input file  
 5: Optionally try to prevent access to folders outside of where the program resides (to prevent damage from potential ignorant or malicious user input)  
